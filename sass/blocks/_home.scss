@@ -1,0 +1,38 @@
+.home {
+margin: 190px 0 100px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__item {
+        max-width: 619px;
+
+        button {
+            transition: all .3s ease-in-out;
+            margin-top: 50px;
+
+            &:hover {
+                background-color: #145855;
+                color: white;
+            }
+        }
+    }
+
+    &__item-img {
+        width: 447px;
+        height: 667px;
+        border-radius: 30px;
+        object-fit: cover;
+        overflow: hidden;
+
+        img{
+            transition: all .3s ease-in;
+
+            &:hover{
+                transform: scale(1.1)
+            }
+        }
+    }
+}

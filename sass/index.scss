@@ -1,0 +1,48 @@
+@import "base/base";
+@import "base/variables";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+@import "blocks/header";
+@import"blocks/titles";
+@import"blocks/btn";
+@import"blocks/flower";
+@import"blocks/indent";
+@import"blocks/decorate";
+@import"blocks/value";
+@import"blocks/home";
+@import"blocks/footer";
+
+
+@import"base/media";

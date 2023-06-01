@@ -1,0 +1,44 @@
+.decorate {
+    margin-top: 190px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__item {
+        max-width: 619px;
+
+
+        p {
+            margin: 21px 0 30px;
+            line-height: 28px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        button {
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background-color: #145855;
+                color: white;
+            }
+        }
+    }
+
+    &__item-img {
+        width: 447px;
+        border-radius: 30px;
+        height: 667px;
+        overflow: hidden;
+
+       img{
+        transition: all .3s ease-in-out;
+        &:hover{
+            transform: scale(1.1)
+        }
+       }
+    }
+}
